@@ -11,7 +11,7 @@ docker run <id>
 docker run <tag>
 
 ```
-* version may be latest for the most recent version
+* version may be "latest" for the most recent version
 * -t add a tag to the image, can use that tag id to docker run <tag id>
 
 ## Create docker image
