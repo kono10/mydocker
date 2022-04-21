@@ -45,3 +45,5 @@ remove all containers
 execute commands inside a container
 
 `docker exec -it <id> <command>`
+
+`docker run -it <id|tag> sh`
