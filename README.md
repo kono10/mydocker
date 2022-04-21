@@ -1,4 +1,5 @@
 # General Summary
+* alpine is code for "the smallest version of the image possible", i.e. node:alpine
 
 ## Commands
 ```docker run hello-world```
