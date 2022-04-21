@@ -35,7 +35,7 @@ be solved with volumes)
 
 
 ### General 
-COPY . . won't include requirements.txt
+COPY . . won't include requirements.txt in the below example
 ```
 COPY requirements.txt ./requirements.txt
 COPY . .
