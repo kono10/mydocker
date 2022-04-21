@@ -1,8 +1,7 @@
-# Create a container for python applications
+# Create a container for a python applications
 
 # 
-# EXPOSE
-# WORKDIR
+### WORKDIR
 
 
 # Create a docker container for flask
