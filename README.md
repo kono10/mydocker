@@ -1,7 +1,9 @@
 # General Summary
 * alpine is code for "the smallest version of the image possible", i.e. node:alpine
 
-## Commands
+# Commands
+
+## Docker Cli
 ```docker run hello-world```
 
 run docker in the background
@@ -54,3 +56,11 @@ execute commands inside a container
 `docker exec -it <id> <command>`
 
 `docker run -it <id|tag> sh`
+
+push image to docker hub
+```
+docker login
+docker tag <id> <dockerhub_username>/<image_name>:<version>
+docker push <dockerhub_username>/<image_name>
+
+```
