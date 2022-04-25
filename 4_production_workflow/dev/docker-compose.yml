@@ -1,0 +1,18 @@
+version: '3'
+services: 
+    web:
+      restart: always
+      build:
+        context: .
+        dockerfile: Dockerfile.dev
+      ports:
+          - "8081:5000"
+      volumes:
+        - .:/flask_app
+    tests:
+      build:
+        context: .
+        dockerfile: Dockerfile.dev
+      volumes:
+        - .:/flask_app
+      command: ["pytest", "tests.py", "-vs"]
