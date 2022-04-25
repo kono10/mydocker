@@ -4,6 +4,12 @@
 ## Commands
 ```docker run hello-world```
 
+run docker in the background
+
+`docker run -d  hello-world`
+
+-d stands for detached state
+
 busy box has more functionality than hello-world
 
 ```docker run busybox ls```
