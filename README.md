@@ -81,4 +81,3 @@ run an image and map a port
 
 `docker run -p 8000:5000 <tag>`
 
-port mapping <port used in the brower>:<port inside the container the app is opened up too>
