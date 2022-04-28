@@ -1,4 +1,4 @@
-# Create an app that uses docker compose to coordinate two docker containers, one for a flask app, and another for a redis database, that you can run locally
+# Create an app that uses docker compose to coordinate two docker containers, one for a flask app, and another for a redis database, that keeps track of the number of times the site is visited, and you can run locally
 * once docker compose is run
 
 ## Docker Compose Summary
