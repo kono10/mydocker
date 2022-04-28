@@ -9,9 +9,10 @@
 
 run docker in the background
 
-`docker run -d  hello-world`
+`docker run -d  --rm hello-world`
 
 -d stands for detached state
+--rm will remove the container once it is done running
 
 busy box has more functionality than hello-world
 
