@@ -1,6 +1,12 @@
 ## How to build and run app locally
 
 ```
+> docker compose build
+
+> docker compose up
+```
+
+```
 ❯ docker-compose build
 Building myapp
 [+] Building 4.0s (10/10) FINISHED                                                                            
