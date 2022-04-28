@@ -1,5 +1,6 @@
 # General Summary
 * alpine is code for "the smallest version of the image possible", i.e. node:alpine
+* image is an instance of a container
 
 # Commands
 
@@ -68,3 +69,16 @@ docker push <dockerhub_username>/<image_name>
 kill all running docker containeres
 
 `docker kill $(docker ps -q)`
+
+### Dockerfile Commands
+```
+docker build .
+docker build -t <dockerid>/<name>:<version> .
+docker run <id>
+docker run <tag>
+```
+run an image and map a port
+
+`docker run -p 8000:5000 <tag>`
+
+port mapping <port used in the brower>:<port inside the container the app is opened up too>
