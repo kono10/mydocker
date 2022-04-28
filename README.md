@@ -64,3 +64,7 @@ docker tag <id> <dockerhub_username>/<image_name>:<version>
 docker push <dockerhub_username>/<image_name>
 
 ```
+
+kill all running docker containeres
+
+`docker kill $(docker ps -q)`
