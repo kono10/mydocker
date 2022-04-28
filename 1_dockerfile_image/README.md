@@ -1,7 +1,8 @@
-## Create a docker image from a simple Dockerfile
+# How to create a docker image from a simple Dockerfile
 
 * create and run a docker image using a Dockerfile
 * tag a docker image
+* for Dockerfile two step process, build the image, run the image
 
 ### Command summary
 ```
@@ -11,8 +12,10 @@ docker run <id>
 docker run <tag>
 
 ```
+
 * version may be "latest" for the most recent version
 * -t add a tag to the image, can use that tag id to docker run <tag id>
+* could also just tag an image with one word for testing purposes
 
 ## Create docker image
 #### When 'Dockerfile' is ready cd into the directory where the file is ...

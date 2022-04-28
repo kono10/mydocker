@@ -1,8 +1,6 @@
-# Create a container for a python applications
+# How to use Dockerfile
 
-# 
-### WORKDIR
-
+### Create a containerized flask app using Dockerfile and some docker commands
 
 # Create a docker container for flask
 
