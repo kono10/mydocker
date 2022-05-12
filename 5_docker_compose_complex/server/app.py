@@ -7,6 +7,7 @@ app = Flask(__name__)
 # service name in docker-compose.yml
 r = redis.Redis(host=os.environ["REDIS_HOST"])
 
+
 @app.route("/")
 def hello_world():
     if r.exists("visits"):

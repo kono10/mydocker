@@ -45,3 +45,10 @@ Restart Policies
 * always: always attempt to restart
 * on-faiure: only restart if container stops with an error code 
 * unless-stopped: always restart unless developer forces a restart
+
+
+### Add environment variables to docker compose
+* applied at run time ... i.e. when the container is started up
+
+
+
