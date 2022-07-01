@@ -55,9 +55,26 @@ remove all containers
 
 execute commands inside a container
 
-`docker exec -it <id> <command>`
-
 `docker run -it <id|tag> sh`
+
+execute commands inside a already running image
+
+```
+docker exec -it <id> <command>
+❯ docker ps
+CONTAINER ID   IMAGE                                  COMMAND                  CREATED         STATUS         PORTS                    NAMES
+117ede224c0d   djangoelasticbeanstalktemplate_nginx   "/docker-entrypoint.…"   3 minutes ago   Up 3 minutes   0.0.0.0:80->80/tcp     djangoelasticbeanstalktemplate_nginx_1
+cd2dc9b2f967   djangoelasticbeanstalktemplate_web     "gunicorn --bind ' 0…"   3 minutes ago   Up 3 minutes   0.0.0.0:8001->8000/tcp   djangoelasticbeanstalktemplate_web_1
+
+❯ docker exec -it djangoelasticbeanstalktemplate_nginx_1 sh
+# cd static
+# pwd
+/static
+# ls
+admin  background.jpeg	favicon.jpeg  style.css
+
+```
+
 
 push image to docker hub
 ```
